@@ -98,4 +98,3 @@ def main():
     showData(coinInformation)
 
 main()
-#makeCryptoCall("ETHUSD")
