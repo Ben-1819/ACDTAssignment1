@@ -39,7 +39,7 @@ def makeIpApiCall(ip):
         # Check the HTTP status of the response
         response.raise_for_status()
     except requests.RequestException as e:
-        # Log error is something goes wrong
+        # Log error if something goes wrong
         logger.error(f"[ERROR] ip-api request failed: {e}")
         # Show user there is an error
         st.write(f"Something went wrong: {e}")

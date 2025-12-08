@@ -52,7 +52,7 @@ def makeCryptoCall(symbol: str):
         response.raise_for_status()
 
     except requests.RequestException as e:
-        # Log error is something goes wrong
+        # Log error if something goes wrong
         logger.error(f"[ERROR] Crypto price request failed: {e}")
         # Show user there is an error
         st.write(f"Something went wrong: {e}")
