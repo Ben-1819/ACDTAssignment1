@@ -63,13 +63,6 @@ def makeNewsCall(query: str):
     apiKey = apiKeys["NEWS_KEY"]
     # Set API URL
     apiUrl = f"https://gnews.io/api/v4/search?q={query}&lang=en&max=5&apikey={apiKey}"
-    # Set params
-    params = {
-        "q": query,
-        "lang": "en",
-        "max": 5,
-        "apiKey": apiKey
-    }
     try:
         # Make request
         response = requests.get(apiUrl)
