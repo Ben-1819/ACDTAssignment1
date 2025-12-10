@@ -3,6 +3,8 @@
 ## BEFORE DOING ANYTHING
 Run pip install -r packages.txt, it is the equivalent of a crude package.json file and will install the all of the packages I used
 
+To run the project run: streamlit run Home.py
+
 Use the sidebar for navigation to use the APIs straight away or read below for a quick list of APIs used and the data they will return
     
 ## List of APIs used:
